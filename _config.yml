@@ -1,3 +1,5 @@
+gems:
+  - jekyll-redirect-from
 name: Paul Lucero's Homepage
 markdown: kramdown
 theme: jekyll-theme-cayman
