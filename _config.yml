@@ -1,5 +1,82 @@
-gems:
-  - jekyll-redirect-from
-name: Paul Lucero's Homepage
-markdown: kramdown
-theme: jekyll-theme-cayman
+layout: sidebar
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+masthead_pages:
+  - display_name: about
+    path: about
+
+  - display_name: contact
+    path: contact
+
+  - display_name: resume
+    path: resume.pdf
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  linkedin: p-lucero
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  # twitter: your_username
+  # unsplash: your_username
+  # vk: your_username
+  website: https://p-lucero.me
+  # youtube: your_username
+
+topics:
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+
+  - name: Rust
+    web_url: https://github.com/topics/rust
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png
+
+  - name: C
+    web_url: https://github.com/topics/c
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png
+
+  - name: Scala
+    web_url: https://github.com/topics/scala
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scala/scala.png
+
+  - name: Elixir
+    web_url: https://github.com/topics/elixir
+    image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
+
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
