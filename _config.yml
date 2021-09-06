@@ -57,9 +57,13 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png
+
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
 
   - name: Rust
     web_url: https://github.com/topics/rust
@@ -76,7 +80,3 @@ topics:
   - name: Elixir
     web_url: https://github.com/topics/elixir
     image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
-
-  - name: C++
-    web_url: https://github.com/topics/cpp
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
